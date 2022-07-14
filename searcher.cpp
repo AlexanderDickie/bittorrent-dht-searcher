@@ -163,9 +163,10 @@ int Searcher::listener()
                     {
                         for (auto peer : pmes.peers)
                             peers.insert(peer);
+                        add_node_to_closest(pmes, from);
+                        print_num_peers(peers);
                     }
-                    add_node_to_closest(pmes, from);
-                    print_num_peers(peers);
+
                     continue;
                 }
                 //for adding bootstrap to have_sent
