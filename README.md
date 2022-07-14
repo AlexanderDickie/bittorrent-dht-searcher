@@ -1,5 +1,5 @@
-# Bittorrent dht searcher
-A utility to find peers for a torrent, by iteratively searching for node id's closer to the torrent's infohash.
+# Bittorrent DHT searcher
+A utility to find peers for a torrent, by iteratively searching the bittorrent protocol's DHT for node id's closer to the torrent's infohash.
 
 ## Resources
 
